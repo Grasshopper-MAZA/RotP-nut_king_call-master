@@ -1,0 +1,62 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU GPL v3.0"
+issueTrackerURL="mailto:3848394903@qq.com"
+
+[[mods]]
+modId="nutkingcall"
+version="1.0.0"
+displayName="Nut King Call Stand Addon"
+logoFile="nutkingcall.png"
+logoBlur=true
+authors="Grasshopper, Day_GeE"
+credits="Grasshopper (Author), Day_GeE (Modeler) | Support: https://ifdian.net/a/mazaNB666"
+description='''
+Nut King Call - A JoJo Stand addon by Grasshopper.
+
+This addon adds the Nut King Call Stand from JoJo's Bizarre Adventure Part 8: JoJolion to Ripples of the Past.
+
+Nut King Call is the Stand of Josuke Higashikata (JoJolion). Its ability revolves around summoning screws and nails that can pin objects and people in place, or be fired as projectiles.
+
+Features:
+- Summon the Nut King Call Stand with a fully modeled 3D Blockbench model.
+- Fire nails and nuts as projectiles that attach to enemies on hit.
+- Pin enemies in place, or pin yourself to walls and the ground.
+- Climb walls using nails.
+- Quick Assembly / Disassembly - craft or break down items, including armor and tools, with a chance to lose materials.
+- Flying Kick finisher and a full set of melee attacks.
+- Custom animations, sounds, and particle effects.
+
+Support me on Afdian:
+https://ifdian.net/a/mazaNB666
+
+Contact: 3848394903@qq.com
+'''
+
+[[dependencies.nutkingcall]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.nutkingcall]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.nutkingcall]]
+modId="jojo"
+mandatory=true
+versionRange="[0.2,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.nutkingcall]]
+modId="geckolib3"
+mandatory=true
+versionRange="[3.0,)"
+ordering="AFTER"
+side="BOTH"

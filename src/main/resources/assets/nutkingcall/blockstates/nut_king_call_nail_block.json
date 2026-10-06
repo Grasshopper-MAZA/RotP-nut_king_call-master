@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up":    { "model": "nutkingcall:block/nut_king_call_nail_block" },
+    "facing=down":  { "model": "nutkingcall:block/nut_king_call_nail_block", "x": 180 },
+    "facing=north": { "model": "nutkingcall:block/nut_king_call_nail_block", "x": 90 },
+    "facing=south": { "model": "nutkingcall:block/nut_king_call_nail_block", "x": 90, "y": 180 },
+    "facing=west":  { "model": "nutkingcall:block/nut_king_call_nail_block", "x": 90, "y": 270 },
+    "facing=east":  { "model": "nutkingcall:block/nut_king_call_nail_block", "x": 90, "y": 90 }
+  }
+}
